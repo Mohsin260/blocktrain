@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="sketch.js"></script> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Bloktrain</title>
+</head>
+
+<body>
+    <!-- <canvas></canvas> -->
+    <header class="header">
+        <div>
+            <img src="./images/Union.png" alt="Union" class="logo">
+            <h1>Bloktrain</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="#">Courses</a></li>
+                <li><a class="navbar-link" href="#">Leading Minds</a></li>
+                <li><a class="navbar-link" href="#">Institutions</a></li>
+                <li><a class="navbar-link" href="#">Become an Instructor</a></li>
+                <li><a class="navbar-link" href="#">Login/Signup</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-navbar-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-navbar-icon"></ion-icon>
+        </div> -->
+    </header>
+
+    <!-- Our Main Section Start -->
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <h1>Become a Block Chain Expert</h1>
+                <p>Unlock Premium Courses Taught By Industry Experts All You Need To Know In Blockchain And
+                    Cryptocurrency</p>
+                <div>
+                    <button class="btn">Enroll Now</button>
+                </div>
+                <div class="svgs">
+                    <div>
+                        <svg class="svg-icons" width="72" height="68" viewBox="0 0 72 68" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M70.7774 28.375L55.2049 43.555L58.8824 64.995C59.0424 65.9325 58.6574 66.88 57.8874 67.44C57.4524 67.7575 56.9349 67.9175 56.4174 67.9175C56.0199 67.9175 55.6199 67.8225 55.2549 67.63L35.9999 57.5075L16.7474 67.6275C15.9074 68.0725 14.8849 68 14.1149 67.4375C13.3449 66.8775 12.9599 65.93 13.1199 64.9925L16.7974 43.5525L1.2224 28.375C0.542404 27.71 0.294904 26.715 0.589904 25.8125C0.884904 24.91 1.6674 24.2475 2.6099 24.11L24.1324 20.985L33.7574 1.48C34.5999 -0.227504 37.3999 -0.227504 38.2424 1.48L47.8674 20.985L69.3899 24.11C70.3324 24.2475 71.1149 24.9075 71.4099 25.8125C71.7049 26.7175 71.4574 27.7075 70.7774 28.375Z"
+                                fill="white" />
+                        </svg>
+                        <h2>Learn from the best</h2>
+                        <p>We have partnered with leading institutions and speakers to bring you the best blockchain
+                            education.</p>
+                    </div>
+                    <div>
+                        <svg class="svg-icons" width="68" height="68" viewBox="0 0 68 68" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M33.625 67.8298C52.1113 67.8298 67.1528 52.7895 67.1528 34.3033C67.1528 15.817 52.1113 0.776505 33.625 0.776505C15.1388 0.776505 0.09729 15.817 0.09729 34.3033C0.09729 52.7895 15.1388 67.8298 33.625 67.8298ZM31.125 16.3565C31.125 14.976 32.2433 13.8565 33.625 13.8565C35.0068 13.8565 36.125 14.976 36.125 16.3565V31.8033H42.6435C44.0253 31.8033 45.1435 32.9228 45.1435 34.3033C45.1435 35.6838 44.0253 36.8033 42.6435 36.8033H33.625C32.2433 36.8033 31.125 35.6838 31.125 34.3033V16.3565Z"
+                                fill="white" />
+                        </svg>
+                        <h2>Learn what you want</h2>
+                        <p>Enjoy learning from home with an easy-to-follow method. You set your own timetable, your own
+                            pace, on your own time.</p>
+                    </div>
+                    <div>
+                        <svg class="svg-icons" width="56" height="70" viewBox="0 0 56 70" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M43.8589 30.6239C37.2255 30.6239 31.8281 36.0213 31.8281 42.6547C31.8281 49.288 37.2255 54.6855 43.8589 54.6855C50.4922 54.6855 55.8897 49.288 55.8897 42.6547C55.8897 36.0213 50.4922 30.6239 43.8589 30.6239ZM48.9596 40.7243C45.4624 45.9709 46.4541 44.4835 44.5848 47.2865C43.9134 48.2936 42.5541 48.5607 41.5511 47.8922L38.27 45.7047C37.2652 45.0348 36.9945 43.6773 37.6644 42.6711C38.3343 41.6662 39.6918 41.3955 40.698 42.0654L42.1581 43.0388C45.6468 37.8067 45.4592 37.9514 46.0463 37.6168C48.0386 36.4643 50.24 38.8013 48.9596 40.7243ZM34.0155 55.771V67.81C34.0155 69.4859 35.8308 70.5422 37.2884 69.7089L43.8589 65.9548L50.4293 69.7089C51.8811 70.541 53.7022 69.4906 53.7022 67.81V55.771C47.8744 60.1556 39.8516 60.1619 34.0155 55.771ZM48.2337 26.8424V4.7508C48.2337 2.13137 46.1023 0 43.4829 0H4.86127C2.24184 0 0.110474 2.13137 0.110474 4.7508V55.4032C0.110474 58.0226 2.24184 60.154 4.86127 60.154H29.6406C29.6406 50.7409 29.626 51.3235 29.6748 50.8903C22.3522 38.3363 34.0123 22.893 48.2337 26.8424ZM13.235 10.9371H31.8281C33.0366 10.9371 34.0155 11.916 34.0155 13.1245C34.0155 14.3331 33.0366 15.3119 31.8281 15.3119H13.235C12.0264 15.3119 11.0476 14.3331 11.0476 13.1245C11.0476 11.916 12.0264 10.9371 13.235 10.9371ZM24.1721 32.8113H13.235C12.0264 32.8113 11.0476 31.8324 11.0476 30.6239C11.0476 29.4153 12.0264 28.4364 13.235 28.4364H24.1721C25.3806 28.4364 26.3595 29.4153 26.3595 30.6239C26.3595 31.8324 25.3806 32.8113 24.1721 32.8113ZM13.235 24.0616C12.0264 24.0616 11.0476 23.0827 11.0476 21.8742C11.0476 20.6656 12.0264 19.6868 13.235 19.6868H31.8281C33.0366 19.6868 34.0155 20.6656 34.0155 21.8742C34.0155 23.0827 33.0366 24.0616 31.8281 24.0616H13.235Z"
+                                fill="white" />
+                        </svg>
+                        <h2>Earn Certificates</h2>
+                        <p>Get a personalized certificate from your institute for their courses. Share it on your
+                            portfolio, social media, or wherever you like.</p>
+                    </div>
+                </div>
+                <div class="cards-title">
+                    <h1>Popular Courses</h1>
+                    <p>Discover our most popular courses for self learning</p>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="images/Rectangle_12.png" alt="">
+                        <h3>Introduction to Blockchain</h3>
+                    </div>
+                    <div class="card">
+                        <img src="images/Rectangle_14.png" alt="">
+                        <h3>Introduction to Blockchain</h3>
+                    </div>
+                    <div class="card">
+                        <img src="images/Rectangle_14.png" alt="">
+                        <h3>Introduction to Blockchain</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services Section Start -->
+        <section class="section-services">
+            <div class="hero">
+                <div>
+                    <h1>Limitless learning, more possibilities</h1>
+                    <p>“Our Web3 Course Selection Will Teach You The Skills You Need To Take Your Tech Career To The
+                        Next Level. Flexible Schedule And 100% Online.”</p>
+                    <button class="btn">Read More</button>
+                </div>
+                <div class="course-title">
+                    <h1>Recent Courses</h1>
+                    <p>Discover our most popular courses for self learning</p>
+                </div>
+                <div class="btns-container">
+                    <a href="#" class="btns">All Categories</a>
+                    <a href="#" class="btns">Banking</a>
+                    <a href="#" class="btns">Bitcoin</a>
+                    <a href="#" class="btns">Blockchain</a>
+                    <a href="#" class="btns">Token</a>
+                    <a href="#" class="btns">Unity</a>
+                    <a href="#" class="btns">Cryptocurrency</a>
+                    <a href="#" class="btns">DeFi</a>
+                    <a href="#" class="btns">Digitally Currency</a>
+                    <a href="#" class="btns">Ethereum</a>
+                    <a href="#" class="btns">Finance</a>
+                    <a href="#" class="btns">Fintech</a>
+                    <a href="#" class="btns">Law</a>
+                    <a href="#" class="btns">Litecoin</a>
+                    <a href="#" class="btns">Material Design</a>
+                    <a href="#" class="btns">Metaverse</a>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="images/Rectangle_12.png" alt="">
+                        <h3>Introduction to Blockchain</h3>
+                    </div>
+                    <div class="card">
+                        <img src="images/Rectangle_14.png" alt="">
+                        <h3>Introduction to Blockchain</h3>
+                    </div>
+                    <div class="card">
+                        <img src="images/Rectangle_14.png" alt="">
+                        <h3>Introduction to Blockchain</h3>
+                    </div>
+                </div>
+
+                <button class="btn-showall">Show All</button>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="hero">
+                <div>
+                    <h1>We Are Proud</h1>
+                    <p>Be a part of our community that is home to 
+                        millions of people from around the world who are
+                        curious and passionate about exploring blockchain.</p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <h3>2000</h3>
+                        <p>Students</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>950</h3>
+                        <p>Courses</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>1600</h3>
+                        <p>Hours Video</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h2>150</h2>
+                        <p>Countries Reached</p>
+                    </div>
+                </div>
+
+
+
+                <!-- <div class="numbers">
+                    <span>2000</span>
+                    <p>Students</p>
+                    <h1>950</h1>
+                    <p>Courses</p>
+                    <h1>1600</h1>
+                    <p>Hours Video</p>
+                    <h1>150</h1>
+                    <p>Countries Reached</p>
+                </div> -->
+
+                <div class="cards-rectangles">
+                    <h3>Become an instructor</h3>
+                    <p>Teach what you love. Bloktrain gives you the tool to create your own course.</p>
+                    <button>Start Now</button>
+                </div>
+                <div class="cards-rectangles">
+                    <h3>Become a leading mind</h3>
+                    <p>Inspire people with your knowledge. Become a Leading Mind and represent your own country.</p>
+                    <button>Start Now</button>
+                </div>
+
+                <div>
+                    <h1>Paints of the Future</h1>
+                    <p>The response to your MasterStudy has been really overwhelming! Those who participated in the
+                        workshop are spreading the word here on campus and the “buzz” is on. The VP of Instruction wants
+                        you to come back! Her goal is to have more faculty trained. She also wants to attend a workshop
+                        herself. Our President told me Masterstudy needs to be the cornerstone of our success program.”
+                    </p>
+                </div>
+                <span>Mayn Red
+                    Xatashi, Froust Inc</span>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+
+
+    <!-- Our JavaScript Start -->
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> -->
+    <!-- <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
